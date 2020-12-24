@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  padding: 2em 0 2em;
+}
+
+.grid-wrapper {
+  width: 640px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid gray;
+}
+
+.grid-row .grid-square {
+  width: 40px;
+  height: 40px;
+}
+
+.grid-row .grid-square-mouseover {
+  background-color: black;
+}
+
+.clear-button {
+  height: 50px;
+  width: 200px;
+  margin-top: 3em;
+}
